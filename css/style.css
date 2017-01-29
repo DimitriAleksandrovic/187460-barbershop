@@ -1,13 +1,13 @@
 @font-face {
-    font-family: PT Sans Narrow;
-    src: url(fonts/ptsansnarrowbold.woff);
-    src: url(fonts/ptsansnarrowbold.woff2);
+    font-family: "PT Sans Narrow";
+    src: url(../fonts/ptsansnarrowbold.woff),
+    	url(../fonts/ptsansnarrowbold.woff2);
     font-weight: bold;
     font-style: normal;
 }
 
 body {
-	font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 14px;
