@@ -1,20 +1,28 @@
+@font-face {
+    font-family: PT Sans Narrow;
+    src: url(fonts/ptsansnarrowbold.woff);
+    src: url(fonts/ptsansnarrowbold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
 	font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 14pt;
-	line-height: 24pt;
+	font-size: 14px;
+	line-height: 24px;
 	text-align: left;
 }
 
 h1 {
-	font-size: 30pt;
-	line-height: 42pt;
+	font-size: 30px;
+	line-height: 42px;
 }
 
 h2 {
-	font-size: 24pt;
-	line-height: 30pt;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .clearfix::after {
@@ -23,12 +31,11 @@ h2 {
   clear: both;
 }
 
-.centered {
+.centred {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 940px
+	width: 940px;
 	min-height: 70px;
-
 }	
 
 .small_logo {
@@ -64,10 +71,12 @@ h2 {
 	width: 220px;
 	min-height: 573px;
 	margin-top: 44px;
-	background-color: rgba(0, 255, 0, 0.2);
+	 
+	background-color: rgba(0, 0, 255, 0.2);
 }
 
 .catalog {
+	float: right;
 	width: 720px;
 	min-height: 618px;
 	margin-top: 47px;
@@ -75,12 +84,12 @@ h2 {
 	background-color: rgba(0, 255, 0, 0.2);
 }
 
-.catalog-item {
+.catalog_item {
 	float: left;
 	width: 220px;
-	margin: 0 10px;
+	margin-left: 20px;
 	margin-bottom: 20px;
-	background-color: rgba(255, 0, 0, 0.2)
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 .paginator {
@@ -89,7 +98,7 @@ h2 {
 	height: 43px;
 	margin-left: 240px;
 	margin-top: 20px;
-	background-color: rgba(0, 255, 0, 0.2)
+	background-color: rgba(0, 255, 0, 0.2);
 }
 
 a.paginator,
@@ -101,31 +110,31 @@ a.paginator,
 	float: left;
 	width: 480px;
 	min-height: 670px;
-	margin: 0 10px;
-	margin-bottom: 30px;
-	background-color: rgba(255, 0, 0, 0.2)
+	
+	
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 .item_big,
 .item_small {
 	float: left;
-	margin: 10px;
-	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .item_description {
 	float: right;
 	width: 390px;
 	min-height: 670px;
-	margin: 0 10px;
+	
 	margin-top: 22px;
 	margin-bottom: 20px;
-	background-color: rgba(255, 0, 0, 0.2)
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 .main_footer {
 	margin-top: 50px;
-	background-color: rgba(255, 0, 0, 0.2)
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 .footer_contacts {
@@ -140,14 +149,14 @@ a.paginator,
 	float: left;
 	width: 160px;
 	min-height: 86px;
-	background-color: rgba(0, 255, 0, 0.2)
+	background-color: rgba(0, 255, 0, 0.2);
 }
 
 .footer_copyright {
 	float: right;
 	width: 150px;
 	min-height: 86px;
-	background-color: rgba(0, 255, 0, 0.2)
+	background-color: rgba(0, 255, 0, 0.2);
 }
 
 
